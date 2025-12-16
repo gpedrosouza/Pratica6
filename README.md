@@ -5,7 +5,7 @@ Este projeto foi desenvolvido para implementar um **contador binário** utilizan
 ## Objetivo
 O objetivo principal deste projeto foi criar um contador binário utilizando **LEDs**, onde cada LED representa uma potência de 2. O contador é implementado de forma que o número binário é mostrado progressivamente nos LEDs, de 0 a 31.
 
-Além disso, fizemos uma tentativa de implementar o mesmo contador utilizando **displays de 7 segmentos** para exibir o número de forma decimal. No entanto, devido a limitações de tempo na plataforma de simulação (**Wokwi**), não conseguimos concluir a implementação com os displays. Para isso, incluímos uma imagem explicando o problema de **overtime**.
+Além disso, fiz uma tentativa de implementar o mesmo contador utilizando **displays de 7 segmentos** para exibir o número de forma decimal. No entanto, devido a limitações de tempo na plataforma de simulação (**Wokwi**), não consegui concluir a implementação com os displays. Para isso, incluí uma imagem explicando o problema de **overtime**.
 
 ## Estrutura do Projeto
 
@@ -156,14 +156,14 @@ void displayNumber(int number) {
 
 ## Desafios e Limitações
 
-Durante a implementação com os displays de 7 segmentos, encontramos limitações de tempo na plataforma Wokwi, o que resultou em não conseguirmos finalizar o projeto dentro do prazo. A plataforma apresentou "overtime", o que atrasou o processo de configuração e implementação com os displays. Abaixo, será incluída uma imagem para ilustrar a situação do "overtime".
+Durante a implementação com os displays de 7 segmentos, encontrei limitações de tempo na plataforma Wokwi, o que resultou em uma implementação sem a visualização adicional. A plataforma apresentou "overtime".
+
+<img width="1872" height="931" alt="tentativacomovertime" src="https://github.com/user-attachments/assets/e7a511f1-6ff1-41e2-a811-1973cd2211ea" />
 
 ## Vídeo do Contador com LEDs Funcionando
 
-Por favor, insira o vídeo do contador com LEDs funcionando aqui.
+https://youtu.be/Vo1K6kM6LD8
 
 ## Conclusão
 
-Neste projeto, conseguimos implementar um contador binário utilizando LEDs com FreeRTOS no ESP32, onde os LEDs representam os valores binários de 0 a 31. A tentativa com os displays de 7 segmentos foi iniciada, mas não foi concluída devido a limitações de tempo na plataforma de simulação Wokwi.
-
-Se você quiser testar ou aprimorar o código, sinta-se à vontade para fazer isso! Se tiver alguma dúvida ou sugestão, deixe um comentário ou abra uma issue.
+Neste projeto, consegui implementar um contador binário utilizando LEDs com FreeRTOS no ESP32, onde os LEDs representam os valores binários de 0 a 31. A tentativa com os displays de 7 segmentos foi iniciada, mas não foi concluída devido a limitações de tempo na plataforma de simulação Wokwi.
