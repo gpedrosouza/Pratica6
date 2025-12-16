@@ -1,8 +1,10 @@
 
 # Contador Binário com LEDs - ESP32
+
 ## Autor
 Guilherme Pedro de Oliveira Souza N°USP 11801178
 
+## Introdução 
 Este projeto foi desenvolvido para implementar um **contador binário** utilizando **LEDs** no **ESP32**, controlado por **FreeRTOS**. A implementação consiste em um contador que vai de **0 a 31**, representando o número binariamente através dos LEDs. Os LEDs acendem conforme o valor binário do contador, representando cada bit do número.
 
 ## Objetivo
